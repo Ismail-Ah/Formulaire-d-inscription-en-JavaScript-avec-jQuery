@@ -1,0 +1,53 @@
+body {
+    background-color: #398B93;
+}
+input{
+    margin-left: 90px;
+    display: flex;
+    margin-top: -20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#33C1FF;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+button{
+    background-color:red;
+    color: white;
+    border: #33C1FF;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;}
+#info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    visibility:hidden;
+}
+input{
+    border-radius: 10px;
+}
+table{
+    background-color: beige;
+    width: 100%;
+}
+#head{
+    text-align: center;
+    width: 100%;
+}
+td{
+    text-align: center;
+    border: 1px solid #ddd;
+}
